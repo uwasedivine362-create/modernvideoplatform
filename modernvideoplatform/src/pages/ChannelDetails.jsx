@@ -24,7 +24,7 @@ function ChannelDetails() {
       {loadingChannel && <Loader />}
 
       {errorChannel && (
-        <div className="error-box">⚠️ Could not load channel info. Please try again later.</div>
+        <div className="error-box"> Could not load channel info. Please try again later.</div>
       )}
 
       {!loadingChannel && !errorChannel && channel && (
@@ -47,7 +47,7 @@ function ChannelDetails() {
       {loadingVideos && <Loader />}
 
       {errorVideos && (
-        <div className="error-box">⚠️ Could not load videos. Please try again later.</div>
+        <div className="error-box"> Could not load videos. Please try again later.</div>
       )}
 
       <div className="video-grid">
